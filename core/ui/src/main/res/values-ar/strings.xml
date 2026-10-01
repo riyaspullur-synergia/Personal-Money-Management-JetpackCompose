@@ -1,0 +1,321 @@
+<resources>
+    <!-- Transactions -->
+    <string name="transactions_title">كل المعاملات</string>
+    <string name="transactions_delete_title">حذف المعاملة</string>
+    <string name="transactions_delete_message">هل أنت متأكد أنك تريد حذف هذه المعاملة؟ سيؤدي هذا الإجراء إلى نقلها إلى سلة المهملات.</string>
+    <string name="transactions_filter_by_date">تصفية حسب التاريخ</string>
+    <string name="transactions_filtering_range">تصفية: %1$s - %2$s</string>
+    <string name="transactions_empty_subtitle">المعاملات التي تضيفها ستظهر هنا</string>
+
+    <!-- Add Transaction -->
+    <string name="add_transaction_title">إضافة معاملة</string>
+    <string name="add_transaction_saving">جاري حفظ المعاملة...</string>
+    <string name="add_transaction_amount_hint">المبلغ (مثلاً: 100+50)</string>
+    <string name="add_transaction_attach_receipt">إرفاق إيصال (صورة، PDF، Word)</string>
+    <string name="add_transaction_receipt_attached">تم إرفاق الإيصال</string>
+    <string name="add_transaction_payment_cleared">تم تسوية الدفع</string>
+    <string name="add_transaction_save_action">حفظ %1$s</string>
+
+    <!-- Transaction Source/Destination Labels -->
+    <string name="transaction_label_deposit_to">إيداع في</string>
+    <string name="transaction_label_pay_from">دفع من</string>
+    <string name="transaction_label_from_account_source">من حساب (المصدر)</string>
+    <string name="transaction_label_from_account_investing">من حساب (الاستثمار)</string>
+    <string name="transaction_label_from_account_funding">من حساب (التمويل)</string>
+    <string name="transaction_label_to_account_destination">إلى حساب (الوجهة)</string>
+    <string name="transaction_label_to_investment_account">إلى حساب الاستثمار</string>
+    <string name="transaction_label_to_deposit_account">إلى حساب الإيداع</string>
+
+    <!-- Category -->
+    <string name="category_add_title">إضافة فئة</string>
+    <string name="category_name_label">اسم الفئة</string>
+
+    <!-- Transfer -->
+    <string name="transfer_title">تحويل أموال</string>
+    <string name="transfer_note_label">ملاحظة</string>
+    <string name="transfer_execute_button">تنفيذ التحويل</string>
+
+    <!-- Account Types -->
+    <string name="account_type_cash">نقدي</string>
+    <string name="account_type_bank">بنك</string>
+    <string name="account_type_credit_card">بطاقة ائتمان</string>
+    <string name="account_type_debit_card">بطاقة خصم</string>
+    <string name="account_type_digital_wallet">محفظة رقمية</string>
+    <string name="account_type_savings">ادخار</string>
+    <string name="account_type_investment">استثمار</string>
+    <string name="account_type_fixed_deposit">وديعة ثابتة</string>
+    <string name="account_type_recurring_deposit">وديعة متكررة</string>
+    <string name="account_type_gold">ذهب</string>
+    <string name="account_type_asset">أصل</string>
+    <string name="account_type_receivable">مستحقات</string>
+    <string name="account_type_liability">التزام</string>
+    <string name="account_type_custom">مخصص</string>
+
+    <!-- Auth Errors -->
+    <string name="auth_error_invalid_credentials">اسم المستخدم أو كلمة المرور غير صالحة</string>
+    <string name="auth_error_username_taken">فشل التسجيل: اسم المستخدم مستخدم بالفعل</string>
+    <string name="auth_error_invalid_password">كلمة مرور غير صالحة</string>
+
+    <!-- UI Errors -->
+    <string name="error_failed_to_load_dashboard">فشل تحميل لوحة القيادة</string>
+    <string name="error_failed_to_load_accounts">فشل تحميل الحسابات</string>
+    <string name="error_failed_to_load_profile">فشل تحميل الملف الشخصي</string>
+    <string name="error_failed_to_load_report">فشل تحميل التقرير</string>
+    <string name="error_failed_to_save_transaction">فشل حفظ المعاملة</string>
+    <string name="error_invalid_account">تم اختيار حساب غير صالح</string>
+    <string name="error_amount_must_be_positive">يجب أن يكون المبلغ أكبر من الصفر</string>
+    <string name="error_description_too_long">الوصف طويل جداً</string>
+
+    <!-- Categories -->
+    <string name="category_food">طعام</string>
+    <string name="category_transport">مواصلات</string>
+    <string name="category_salary">راتب</string>
+    <string name="category_shopping">تسوق</string>
+    <string name="category_bills">فواتير</string>
+    <string name="category_utilities">مرافق</string>
+    <string name="category_entertainment">ترفيه</string>
+    <string name="category_health">صحة</string>
+    <string name="category_gift">هدية</string>
+
+    <string name="app_name">إدارة الأموال الشخصية</string>
+    <string name="dashboard">لوحة القيادة</string>
+    <string name="reports">التقارير</string>
+    <string name="accounts">الحسابات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <!-- Common -->
+    <string name="common_save">حفظ</string>
+    <string name="common_cancel">إلغاء</string>
+    <string name="common_delete">حذف</string>
+    <string name="common_edit">تعديل</string>
+    <string name="common_confirm">تأكيد</string>
+    <string name="common_search">بحث</string>
+    <string name="common_add">إضافة</string>
+    <string name="common_remove">إزالة</string>
+    <string name="common_ok">موافق</string>
+    <string name="common_clear">مسح</string>
+    <string name="common_clear_filter">مسح التصفية</string>
+    <string name="common_new">جديد</string>
+    <string name="common_import">استيراد</string>
+    <string name="common_go_back">رجوع</string>
+    <string name="common_all">الكل</string>
+    <string name="common_back">رجوع</string>
+    <string name="common_today">اليوم</string>
+    <string name="common_yesterday">أمس</string>
+    <string name="common_total">الإجمالي</string>
+    <string name="common_monthly">شهري</string>
+    <string name="common_weekly">أسبوعي</string>
+    <string name="common_daily">يومي</string>
+    <string name="common_amount">المبلغ</string>
+    <string name="common_date">التاريخ</string>
+    <string name="common_category">الفئة</string>
+    <string name="common_description">الوصف</string>
+    <string name="common_account">الحساب</string>
+    <string name="common_income">دخل</string>
+    <string name="common_expense">مصروف</string>
+    <string name="common_transfer">تحويل</string>
+    <string name="common_investment">استثمار</string>
+    <string name="common_deposit">إيداع</string>
+    <string name="common_balance">الرصيد</string>
+    <string name="common_transaction">معاملة</string>
+    <string name="common_currency">العملة</string>
+    <string name="common_something_went_wrong">حدث خطأ ما</string>
+    <string name="common_no_transactions">لا توجد معاملات بعد</string>
+    <string name="common_loading">جاري التحميل...</string>
+    <string name="common_unknown_error">خطأ غير معروف</string>
+    <string name="common_no_accounts_found">لم يتم العثور على حسابات. يرجى إنشاء حساب أولاً.</string>
+    <string name="content_description_app_logo">شعار التطبيق</string>
+
+    <!-- Settings -->
+    <string name="settings_section_appearance">المظهر</string>
+    <string name="settings_section_security">الأمان</string>
+    <string name="settings_section_data_management">إدارة البيانات</string>
+    <string name="settings_section_account">الحساب</string>
+    <string name="settings_theme">السمة</string>
+    <string name="settings_theme_system">تلقائي حسب النظام</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_choose_theme">اختر المظهر</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_choose_language">اختر اللغة</string>
+    <string name="settings_app_lock">قفل التطبيق</string>
+    <string name="settings_app_lock_description">طلب إلغاء القفل عند فتح التطبيق</string>
+    <string name="settings_recycle_bin">سلة المهملات</string>
+    <string name="settings_recycle_bin_description">عرض واستعادة المعاملات المحذوفة</string>
+    <string name="settings_backup_restore">النسخ الاحتياطي والاستعادة</string>
+    <string name="settings_coming_soon">قريباً...</string>
+    <string name="settings_profile">الملف الشخصي</string>
+    <string name="settings_help_support">المساعدة والدعم</string>
+    <string name="settings_logout_confirm_message">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+
+    <!-- Profile -->
+    <string name="profile_edit_content_description">تعديل الملف الشخصي</string>
+    <string name="profile_edit_title">تعديل الملف الشخصي</string>
+    <string name="profile_display_name_label">اسم العرض</string>
+    <string name="profile_account_info_title">معلومات الحساب</string>
+    <string name="profile_username_label">اسم المستخدم</string>
+    <string name="profile_member_since_label">عضو منذ</string>
+    <string name="profile_change_password">تغيير كلمة المرور</string>
+    <string name="profile_current_password_label">كلمة المرور الحالية</string>
+    <string name="profile_new_password_label">كلمة المرور الجديدة</string>
+    <string name="profile_confirm_new_password_label">تأكيد كلمة المرور الجديدة</string>
+    <string name="profile_passwords_do_not_match">كلمات المرور غير متطابقة</string>
+    <string name="profile_change_button">تغيير</string>
+    <string name="profile_error_user_not_found">المستخدم غير موجود</string>
+    <string name="profile_error_incorrect_current_password">كلمة المرور الحالية غير صحيحة</string>
+    <string name="profile_error_failed_to_update">فشل تحديث الملف الشخصي</string>
+    <string name="profile_error_failed_to_change_password">فشل تغيير كلمة المرور</string>
+    <string name="profile_password_changed_successfully">تم تغيير كلمة المرور بنجاح</string>
+
+    <!-- Help & Support -->
+    <string name="help_support_app_name">إدارة الأموال الشخصية</string>
+    <string name="help_support_version">الإصدار 1.0</string>
+    <string name="help_support_developer_section">المطور</string>
+    <string name="help_support_developer_name">رياس بولور</string>
+    <string name="help_support_developer_role">مطور تطبيقات</string>
+    <string name="help_support_connect_section">اتصل بنا</string>
+    <string name="help_support_website_label">الموقع الإلكتروني</string>
+    <string name="help_support_website_value">www.riyaspullur.online</string>
+    <string name="help_support_linkedin_label">LinkedIn</string>
+    <string name="help_support_linkedin_handle">riyas-pullur</string>
+    <string name="help_support_copyright">© 2026 رياس بولور</string>
+
+    <!-- Recycle Bin -->
+    <string name="recycle_bin_clear_dialog_title">مسح سلة المهملات</string>
+    <string name="recycle_bin_clear_dialog_message">هل أنت متأكد أنك تريد حذف جميع العناصر في سلة المهملات بشكل دائم؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="recycle_bin_clear_all">مسح الكل</string>
+    <string name="recycle_bin_empty_title">سلة المهملات فارغة</string>
+    <string name="recycle_bin_empty_subtitle">المعاملات المحذوفة ستظهر هنا</string>
+    <string name="recycle_bin_restore_content_description">استعادة</string>
+
+    <!-- Lock screen -->
+    <string name="lock_biometric_prompt_subtitle">استخدم القياسات الحيوية لإلغاء القفل</string>
+
+    <!-- Auth -->
+    <string name="auth_username_label">اسم المستخدم</string>
+    <string name="auth_password_label">كلمة المرور</string>
+    <string name="auth_display_name_label">اسم العرض</string>
+    <string name="login_welcome_title">مرحباً بعودتك</string>
+    <string name="login_welcome_subtitle">سجل الدخول لمتابعة أموالك</string>
+    <string name="login_select_user_label">اختر مستخدم</string>
+    <string name="login_submit_button">تسجيل الدخول</string>
+    <string name="login_register_link">ليس لديك حساب؟ سجل الآن</string>
+    <string name="register_title">إنشاء حسابك</string>
+    <string name="register_subtitle">ابدأ في تتبع دخلك ومصروفاتك</string>
+    <string name="register_submit_button">إنشاء حساب</string>
+    <string name="register_login_link">لديك حساب بالفعل؟ سجل الدخول</string>
+    <string name="lock_title">التطبيق مقفل</string>
+    <string name="lock_subtitle">تحقق من هويتك للمتابعة</string>
+    <string name="lock_biometric_button">إلغاء القفل بالبصمة</string>
+    <string name="lock_or_use_password_divider">" أو استخدم كلمة المرور "</string>
+    <string name="lock_unlock_button">إلغاء القفل</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_add_income_content_description">إضافة دخل</string>
+    <string name="dashboard_add_expense_content_description">إضافة مصروف</string>
+    <string name="dashboard_recent_activity_title">النشاط الأخير</string>
+    <string name="dashboard_view_all">عرض الكل</string>
+    <string name="dashboard_savings_goals_title">أهداف الادخار</string>
+    <string name="dashboard_distribution_title">التوزيع</string>
+    <string name="dashboard_net_worth">صافي الثروة</string>
+    <string name="dashboard_available_now">متاح الآن</string>
+    <string name="dashboard_total_balance">إجمالي الرصيد</string>
+    <string name="dashboard_expenses_label">مصروفات</string>
+    <string name="dashboard_cash_in_hand">نقد في اليد</string>
+    <string name="dashboard_bank_accounts">حسابات بنكية</string>
+    <string name="dashboard_investments">استثمارات</string>
+    <string name="dashboard_deposits">ودائع</string>
+    <string name="dashboard_import_success">تم استيراد %1$d معاملات بنجاح</string>
+    <string name="dashboard_receivables">مستحقات</string>
+    <string name="dashboard_budget_title">ميزانية %1$s</string>
+    <string name="dashboard_spent_label">تم إنفاقه</string>
+    <string name="dashboard_remaining_label">المتبقي</string>
+    <string name="dashboard_percent_used">تم استخدام %1$d%%</string>
+    <string name="dashboard_recommended_daily_spend_label">الإنفاق اليومي الموصى به: </string>
+
+    <plurals name="dashboard_days_remaining">
+        <item quantity="zero">لم يتبق أي يوم</item>
+        <item quantity="one">متبقي يوم واحد</item>
+        <item quantity="two">متبقي يومان</item>
+        <item quantity="few">متبقي %1$d أيام</item>
+        <item quantity="many">متبقي %1$d يوماً</item>
+        <item quantity="other">متبقي %1$d يوماً</item>
+    </plurals>
+
+    <!-- Accounts -->
+    <string name="accounts_add_account_content_description">إضافة حساب</string>
+    <string name="accounts_add_group_content_description">إضافة مجموعة</string>
+    <string name="accounts_add_group_title">إضافة مجموعة</string>
+    <string name="accounts_empty_subtitle">أضف حسابك الأول للبدء</string>
+    <string name="accounts_empty_title">لا توجد حسابات بعد</string>
+    <string name="accounts_general_section_title">عام</string>
+    <string name="accounts_group_name_label">اسم المجموعة</string>
+
+    <!-- Add Account -->
+    <string name="add_account_bank_name_label">اسم البنك</string>
+    <string name="add_account_color_selected_content_description">مختار</string>
+    <string name="add_account_current_value_label">القيمة الحالية</string>
+    <string name="add_account_details_section_title">التفاصيل</string>
+    <string name="add_account_group_label">المجموعة</string>
+    <string name="add_account_initial_balance_label">الرصيد الافتتاحي</string>
+    <string name="add_account_interest_rate_label">نسبة الفائدة (%)</string>
+    <string name="add_account_invested_amount_label">المبلغ المستثمر</string>
+    <string name="add_account_lent_to_label">أقرضت لـ</string>
+    <string name="add_account_name_label">اسم الحساب</string>
+    <string name="add_account_no_group_label">بدون مجموعة</string>
+    <string name="add_account_organization_section_title">التنظيم</string>
+    <string name="add_account_owed_to_label">مدين لـ</string>
+    <string name="add_account_save_button">حفظ الحساب</string>
+    <string name="add_account_theme_color_label">لون المظهر</string>
+    <string name="add_account_title">إضافة حساب</string>
+    <string name="add_account_total_label">الإجمالي: %1$s</string>
+    <string name="add_account_type_label">نوع الحساب</string>
+
+    <!-- Reports -->
+    <string name="reports_all_accounts_label">جميع الحسابات</string>
+    <string name="reports_daily_expenses_title">المصروفات اليومية</string>
+    <string name="reports_daily_trend_title">التوجه اليومي</string>
+    <string name="reports_date_picker_confirm">موافق</string>
+    <string name="reports_empty_subtitle">أضف بعض المعاملات لرؤية تقاريرك</string>
+    <string name="reports_empty_title">لا توجد بيانات للعرض</string>
+    <string name="reports_expense_breakdown_title">تفصيل المصروفات</string>
+    <string name="reports_expenses_label">المصروفات</string>
+    <string name="reports_export_csv_content_description">تصدير CSV</string>
+    <string name="reports_export_pdf_content_description">تصدير PDF</string>
+    <string name="reports_download_template_menu_item">تحميل قالب CSV</string>
+    <string name="reports_preview_template_menu_item">معاينة القالب</string>
+    <string name="reports_template_preview_title">تنسيق قالب CSV</string>
+    <string name="reports_template_preview_headers">العناوين: التاريخ، النوع، المبلغ، العملة، الحساب، الفئة، التاجر، الوصف، الحالة</string>
+    <string name="reports_info_with_month">التقرير: %1$s (%2$s)</string>
+    <string name="reports_info_without_month">التقرير: %1$s</string>
+    <string name="reports_net_balance_label">صافي الرصيد</string>
+    <string name="reports_no_activity_label">لا يوجد نشاط</string>
+    <string name="reports_select_date_range_content_description">اختر نطاق التاريخ</string>
+    <string name="reports_share_pdf_menu_item">مشاركة PDF</string>
+    <string name="reports_spending_breakdown_title">تفصيل الإنفاق</string>
+    <string name="reports_spending_by_category_title">الإنفاق حسب الفئة</string>
+    <string name="reports_uncategorized_label">غير مصنف</string>
+    <string name="reports_view_pdf_menu_item">عرض PDF</string>
+
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_error_failed_to_load">فشل تحميل PDF</string>
+    <string name="pdf_viewer_error_file_not_found">الملف غير موجود</string>
+    <string name="pdf_viewer_rendering_message">جاري معالجة PDF...</string>
+    <string name="pdf_viewer_share_content_description">مشاركة</string>
+    <string name="pdf_viewer_title">تقرير PDF</string>
+    <!-- PDF Generation -->
+    <string name="pdf_gen_report_title">التقرير المالي</string>
+    <string name="pdf_gen_monthly_report_title">التقرير الشهري: %1$s</string>
+    <string name="pdf_gen_report_info">التقرير: %1$s</string>
+    <string name="pdf_gen_summary">ملخص</string>
+    <string name="pdf_gen_total_income">إجمالي الدخل:</string>
+    <string name="pdf_gen_total_expense">إجمالي المصروفات:</string>
+    <string name="pdf_gen_net_balance">صافي الرصيد:</string>
+    <string name="pdf_gen_category_breakdown">تفصيل الفئات</string>
+    <string name="pdf_gen_recent_transactions">المعاملات الأخيرة</string>
+    <string name="pdf_gen_date_header">التاريخ</string>
+    <string name="pdf_gen_description_header">الوصف</string>
+    <string name="pdf_gen_amount_header">المبلغ</string>
+    <string name="pdf_gen_other_category">أخرى</string>
+</resources>

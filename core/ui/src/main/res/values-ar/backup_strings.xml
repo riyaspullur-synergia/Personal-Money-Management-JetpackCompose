@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="backup_description">احفظ جميع السجلات وتابع على هاتف آخر</string>
+    <string name="backup_instructions">صدّر نسخة كاملة بصيغة CSV أو Excel، ثم سجّل الدخول أو أنشئ ملفًا شخصيًا على الهاتف الآخر واستعدها هنا. تشمل البيانات المالية والعناصر المؤرشفة والمحذوفة والإيصالات واسم العرض والمظهر واللغة. تبقى بيانات الدخول وقفل التطبيق ومفاتيح AI على كل جهاز. احتفظ بالملف دون تعديل وفي مكان خاص. الحد: 8 MB للإيصالات و32 MB لمحتوى النسخة.</string>
+    <string name="backup_export_csv">تصدير نسخة كاملة (CSV)</string>
+    <string name="backup_export_excel">تصدير نسخة كاملة (Excel .xlsx)</string>
+    <string name="backup_import">اختيار نسخة لاستعادتها</string>
+    <string name="backup_restore_title">استعادة هذه النسخة؟</string>
+    <string name="backup_preview">%1$s • %2$s\n%3$d حسابات • %4$d معاملات\n%5$d فئات • %6$d ميزانيات\n%7$d أهداف ادخار • %8$d إيصالات</string>
+    <string name="backup_replace_warning">سيتم استبدال جميع السجلات المالية في الملف الشخصي الحالي، بما فيها العناصر المؤرشفة وسلة المحذوفات. تبقى الملفات الشخصية الأخرى كما هي. صدّر بياناتك الحالية أولًا للاحتفاظ بها.</string>
+    <string name="backup_replace_confirm">استبدال واستعادة</string>
+    <string name="backup_working">جارٍ معالجة النسخة. أبقِ التطبيق مفتوحًا.</string>
+    <string name="backup_export_success">تم حفظ النسخة. انقل الملف إلى الهاتف الآخر واستعده من الإعدادات ← النسخ الاحتياطي والاستعادة.</string>
+    <string name="backup_restore_success">تمت الاستعادة. أرصدتك وسجلاتك جاهزة للاستخدام.</string>
+    <string name="backup_export_error">تعذر حفظ النسخة. تحقق من مساحة التخزين والوصول للملف وتوفر الإيصالات. قد تتجاوز النسخ الكبيرة الحد المدعوم. أعد المحاولة بملف جديد.</string>
+    <string name="backup_read_error">تعذر قراءة الملف كنسخة كاملة ومدعومة. اختر نسخة أصلية مصدّرة من الإعدادات. لا يمكن استعادة التقارير أو الملفات المعدلة أو الناقصة أو الكبيرة جدًا.</string>
+    <string name="backup_restore_error">تعذرت الاستعادة. تم الاحتفاظ بسجلاتك المالية الحالية. تحقق من مساحة التخزين وأعد المحاولة.</string>
+    <string name="backup_preferences_error">تمت استعادة جميع السجلات المالية، لكن تعذر تطبيق المظهر واللغة. اضبطهما في الإعدادات.</string>
+</resources>

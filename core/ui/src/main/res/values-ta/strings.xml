@@ -1,0 +1,314 @@
+<resources>
+    <!-- Transactions -->
+    <string name="transactions_title">அனைத்து பரிவர்த்தனைகள்</string>
+    <string name="transactions_delete_title">பரிவர்த்தனையை நீக்கு</string>
+    <string name="transactions_delete_message">இந்தப் பரிவர்த்தனையை நீக்க விரும்புகிறீர்களா? இந்தச் செயல் இதை மறுசுழற்சி தொட்டிக்கு மாற்றும்.</string>
+    <string name="transactions_filter_by_date">தேதி வாரியாக வடிகட்டவும்</string>
+    <string name="transactions_filtering_range">வடிகட்டல்: %1$s - %2$s</string>
+    <string name="transactions_empty_subtitle">நீங்கள் சேர்க்கும் பரிவர்த்தனைகள் இங்கே தோன்றும்</string>
+
+    <!-- Add Transaction -->
+    <string name="add_transaction_title">பரிவர்த்தனையைச் சேர்</string>
+    <string name="add_transaction_saving">பரிவர்த்தனை சேமிக்கப்படுகிறது...</string>
+    <string name="add_transaction_amount_hint">தொகை (எ.கா: 100+50)</string>
+    <string name="add_transaction_attach_receipt">ரசீதை இணைக்கவும் (Image, PDF, Word)</string>
+    <string name="add_transaction_receipt_attached">ரசீது இணைக்கப்பட்டுள்ளது</string>
+    <string name="add_transaction_payment_cleared">பணம் செலுத்தப்பட்டது</string>
+    <string name="add_transaction_save_action">%1$s சேமி</string>
+
+    <!-- Transaction Source/Destination Labels -->
+    <string name="transaction_label_deposit_to">இதில் டெபாசிட் செய்</string>
+    <string name="transaction_label_pay_from">இதிலிருந்து செலுத்து</string>
+    <string name="transaction_label_from_account_source">கணக்கிலிருந்து (ஆதாரம்)</string>
+    <string name="transaction_label_from_account_investing">கணக்கிலிருந்து (முதலீடு)</string>
+    <string name="transaction_label_from_account_funding">கணக்கிலிருந்து (நிதியுதவி)</string>
+    <string name="transaction_label_to_account_destination">கணக்கிற்கு (இலக்கு)</string>
+    <string name="transaction_label_to_investment_account">முதலீட்டுக் கணக்கிற்கு</string>
+    <string name="transaction_label_to_deposit_account">டெபாசிட் கணக்கிற்கு</string>
+
+    <!-- Category -->
+    <string name="category_add_title">வகையைச் சேர்</string>
+    <string name="category_name_label">வகையின் பெயர்</string>
+
+    <!-- Transfer -->
+    <string name="transfer_title">பணப் பரிமாற்றம்</string>
+    <string name="transfer_note_label">குறிப்பு</string>
+    <string name="transfer_execute_button">பரிமாற்றத்தை முடி</string>
+
+    <!-- Account Types -->
+    <string name="account_type_cash">ரொக்கம்</string>
+    <string name="account_type_bank">வங்கி</string>
+    <string name="account_type_credit_card">கிரெடிட் கார்டு</string>
+    <string name="account_type_debit_card">டெபிட் கார்டு</string>
+    <string name="account_type_digital_wallet">டிஜிட்டல் வாலட்</string>
+    <string name="account_type_savings">சேமிப்பு</string>
+    <string name="account_type_investment">முதலீடு</string>
+    <string name="account_type_fixed_deposit">நிலையான வைப்பு (FD)</string>
+    <string name="account_type_recurring_deposit">தொடர் வைப்பு (RD)</string>
+    <string name="account_type_gold">தங்கம்</string>
+    <string name="account_type_asset">சொத்து</string>
+    <string name="account_type_receivable">பெற வேண்டியவை</string>
+    <string name="account_type_liability">பொறுப்பு</string>
+    <string name="account_type_custom">தனிப்பயன்</string>
+
+    <!-- Auth Errors -->
+    <string name="auth_error_invalid_credentials">தவறான பயனர் பெயர் அல்லது கடவுச்சொல்</string>
+    <string name="auth_error_username_taken">பதிவு தோல்வியுற்றது: பயனர் பெயர் ஏற்கனவே உள்ளது</string>
+    <string name="auth_error_invalid_password">தவறான கடவுச்சொல்</string>
+
+    <!-- UI Errors -->
+    <string name="error_failed_to_load_dashboard">டாஷ்போர்டை ஏற்றுவதில் தோல்வி</string>
+    <string name="error_failed_to_load_accounts">கணக்குகளை ஏற்றுவதில் தோல்வி</string>
+    <string name="error_failed_to_load_profile">சுயவிவரத்தை ஏற்றுவதில் தோல்வி</string>
+    <string name="error_failed_to_load_report">அறிக்கையை ஏற்றுவதில் தோல்வி</string>
+    <string name="error_failed_to_save_transaction">பரிவர்த்தனையைச் சேமிப்பதில் தோல்வி</string>
+    <string name="error_invalid_account">தவறான கணக்கு தேர்ந்தெடுக்கப்பட்டுள்ளது</string>
+    <string name="error_amount_must_be_positive">தொகை பூஜ்ஜியத்தை விட அதிகமாக இருக்க வேண்டும்</string>
+    <string name="error_description_too_long">விவரம் மிக நீளமாக உள்ளது</string>
+
+    <!-- Categories -->
+    <string name="category_food">உணவு</string>
+    <string name="category_transport">போக்குவரத்து</string>
+    <string name="category_salary">சம்பளம்</string>
+    <string name="category_shopping">ஷாப்பிங்</string>
+    <string name="category_bills">பில்கள்</string>
+    <string name="category_utilities">பயன்பாடுகள்</string>
+    <string name="category_entertainment">பொழுதுபோக்கு</string>
+    <string name="category_health">ஆரோக்கியம்</string>
+    <string name="category_gift">பரிசு</string>
+
+    <string name="app_name">தனிப்பட்ட பண மேலாண்மை</string>
+    <string name="dashboard">டாஷ்போர்டு</string>
+    <string name="reports">அறிக்கைகள்</string>
+    <string name="accounts">கணக்குகள்</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="logout">வெளியேறு</string>
+
+    <!-- Common -->
+    <string name="common_save">சேமி</string>
+    <string name="common_cancel">ரத்துசெய்</string>
+    <string name="common_delete">நீக்கு</string>
+    <string name="common_edit">திருத்து</string>
+    <string name="common_confirm">உறுதிப்படுத்து</string>
+    <string name="common_search">தேடு</string>
+    <string name="common_add">சேர்</string>
+    <string name="common_remove">அகற்று</string>
+    <string name="common_ok">சரி</string>
+    <string name="common_clear">அழி</string>
+    <string name="common_clear_filter">வடிகட்டியை அழி</string>
+    <string name="common_new">புதியது</string>
+    <string name="common_import">இறக்குமதி</string>
+    <string name="common_go_back">பின்செல்</string>
+    <string name="common_all">அனைத்தும்</string>
+    <string name="common_back">பின்னால்</string>
+    <string name="common_today">இன்று</string>
+    <string name="common_yesterday">நேற்று</string>
+    <string name="common_total">மொத்தம்</string>
+    <string name="common_monthly">மாதாந்திர</string>
+    <string name="common_weekly">வாராந்திர</string>
+    <string name="common_daily">தினசரி</string>
+    <string name="common_amount">தொகை</string>
+    <string name="common_date">தேதி</string>
+    <string name="common_category">வகை</string>
+    <string name="common_description">விளக்கம்</string>
+    <string name="common_account">கணக்கு</string>
+    <string name="common_income">வருமானம்</string>
+    <string name="common_expense">செலவு</string>
+    <string name="common_transfer">பரிமாற்றம்</string>
+    <string name="common_investment">முதலீடு</string>
+    <string name="common_deposit">டெபாசிட்</string>
+    <string name="common_balance">இருப்பு</string>
+    <string name="common_transaction">பரிவர்த்தனை</string>
+    <string name="common_currency">நாணயம்</string>
+    <string name="common_something_went_wrong">ஏதோ தவறு நடந்துவிட்டது</string>
+    <string name="common_no_transactions">இன்னும் பரிவர்த்தனைகள் இல்லை</string>
+    <string name="common_loading">ஏற்றப்படுகிறது...</string>
+    <string name="common_unknown_error">தெரியாத பிழை</string>
+    <string name="common_no_accounts_found">கணக்குகள் எதுவும் இல்லை. முதலில் ஒரு கணக்கை உருவாக்கவும்.</string>
+    <string name="content_description_app_logo">பயன்பாட்டு லோகோ</string>
+
+    <!-- Settings -->
+    <string name="settings_section_appearance">தோற்றம்</string>
+    <string name="settings_section_security">பாதுகாப்பு</string>
+    <string name="settings_section_data_management">தரவு மேலாண்மை</string>
+    <string name="settings_section_account">கணக்கு</string>
+    <string name="settings_theme">தீம்</string>
+    <string name="settings_theme_system">கணினி இயல்புநிலை</string>
+    <string name="settings_theme_light">லைட்</string>
+    <string name="settings_theme_dark">டார்க்</string>
+    <string name="settings_choose_theme">தீம் தேர்ந்தெடுக்கவும்</string>
+    <string name="settings_language">மொழி</string>
+    <string name="settings_choose_language">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="settings_app_lock">ஆப் லாக்</string>
+    <string name="settings_app_lock_description">பயன்பாட்டைத் திறக்கும்போது திறத்தல் தேவை</string>
+    <string name="settings_recycle_bin">மறுசுழற்சி தொட்டி</string>
+    <string name="settings_recycle_bin_description">நீக்கப்பட்ட பரிவர்த்தனைகளைப் பார்த்து மீட்டமைக்கவும்</string>
+    <string name="settings_backup_restore">காப்புப்பிரதி மற்றும் மீட்டமை</string>
+    <string name="settings_coming_soon">விரைவில் வரும்...</string>
+    <string name="settings_profile">சுயவிவரம்</string>
+    <string name="settings_help_support">உதவி மற்றும் ஆதரவு</string>
+    <string name="settings_logout_confirm_message">நிச்சயமாக வெளியேற விரும்புகிறீர்களா?</string>
+
+    <!-- Profile -->
+    <string name="profile_edit_content_description">சுயவிவரத்தைத் திருத்து</string>
+    <string name="profile_edit_title">சுயவிவரத்தைத் திருத்து</string>
+    <string name="profile_display_name_label">காட்சிப் பெயர்</string>
+    <string name="profile_account_info_title">கணக்கு தகவல்</string>
+    <string name="profile_username_label">பயனர் பெயர்</string>
+    <string name="profile_member_since_label">உறுப்பினரான காலம் முதல்</string>
+    <string name="profile_change_password">கடவுச்சொல்லை மாற்றவும்</string>
+    <string name="profile_current_password_label">தற்போதைய கடவுச்சொல்</string>
+    <string name="profile_new_password_label">புதிய கடவுச்சொல்</string>
+    <string name="profile_confirm_new_password_label">புதிய கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="profile_passwords_do_not_match">கடவுச்சொற்கள் பொருந்தவில்லை</string>
+    <string name="profile_change_button">மாற்று</string>
+    <string name="profile_error_user_not_found">பயனர் காணப்படவில்லை</string>
+    <string name="profile_error_incorrect_current_password">தற்போதைய கடவுச்சொல் தவறானது</string>
+    <string name="profile_error_failed_to_update">சுயவிவரத்தைப் புதுப்பிப்பதில் தோல்வி</string>
+    <string name="profile_error_failed_to_change_password">கடவுச்சொல்லை மாற்றுவதில் தோல்வி</string>
+    <string name="profile_password_changed_successfully">கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது</string>
+
+    <!-- Help & Support -->
+    <string name="help_support_app_name">தனிப்பட்ட பண மேலாண்மை</string>
+    <string name="help_support_version">பதிப்பு 1.0</string>
+    <string name="help_support_developer_section">டெவலப்பர்</string>
+    <string name="help_support_developer_name">ரியாஸ் புள்ளூர்</string>
+    <string name="help_support_developer_role">பயன்பாட்டு டெவலப்பர்</string>
+    <string name="help_support_connect_section">தொடர்பு கொள்ள</string>
+    <string name="help_support_website_label">இணையதளம்</string>
+    <string name="help_support_website_value">www.riyaspullur.online</string>
+    <string name="help_support_linkedin_label">LinkedIn</string>
+    <string name="help_support_linkedin_handle">riyas-pullur</string>
+    <string name="help_support_copyright">© 2026 ரியாஸ் புள்ளூர்</string>
+
+    <!-- Recycle Bin -->
+    <string name="recycle_bin_clear_dialog_title">மறுசுழற்சி தொட்டியை காலி செய்</string>
+    <string name="recycle_bin_clear_dialog_message">மறுசுழற்சி தொட்டியில் உள்ள அனைத்து பொருட்களையும் நிரந்தரமாக நீக்க விரும்புகிறீர்களா? இந்தச் செயலை மாற்ற முடியாது.</string>
+    <string name="recycle_bin_clear_all">அனைத்தையும் காலி செய்</string>
+    <string name="recycle_bin_empty_title">மறுசுழற்சி தொட்டி காலியாக உள்ளது</string>
+    <string name="recycle_bin_empty_subtitle">நீக்கப்பட்ட பரிவர்த்தனைகள் இங்கே தோன்றும்</string>
+    <string name="recycle_bin_restore_content_description">மீட்டமை</string>
+
+    <!-- Lock screen -->
+    <string name="lock_biometric_prompt_subtitle">திறக்க பயோமெட்ரிக்ஸைப் பயன்படுத்தவும்</string>
+
+    <!-- Auth -->
+    <string name="auth_username_label">பயனர் பெயர்</string>
+    <string name="auth_password_label">கடவுச்சொல்</string>
+    <string name="auth_display_name_label">காட்சிப் பெயர்</string>
+    <string name="login_welcome_title">மீண்டும் வருக</string>
+    <string name="login_welcome_subtitle">உங்கள் பணத்தைக் கண்காணிக்க உள்நுழையவும்</string>
+    <string name="login_select_user_label">பயனரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="login_submit_button">உள்நுழைக</string>
+    <string name="login_register_link">கணக்கு இல்லையா? பதிவு செய்யுங்கள்</string>
+    <string name="register_title">உங்கள் கணக்கை உருவாக்கவும்</string>
+    <string name="register_subtitle">உங்கள் வருமானம் மற்றும் செலவுகளைக் கண்காணிக்கத் தொடங்குங்கள்</string>
+    <string name="register_submit_button">கணக்கை உருவாக்கு</string>
+    <string name="register_login_link">ஏற்கனவே கணக்கு உள்ளதா? உள்நுழைக</string>
+    <string name="lock_title">ஆப் பூட்டப்பட்டுள்ளது</string>
+    <string name="lock_subtitle">தொடர நீங்கள் தானா என்று சரிபார்க்கவும்</string>
+    <string name="lock_biometric_button">பயோமெட்ரிக்ஸுடன் திறக்கவும்</string>
+    <string name="lock_or_use_password_divider">" அல்லது கடவுச்சொல்லைப் பயன்படுத்தவும் "</string>
+    <string name="lock_unlock_button">திறக்கவும்</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_add_income_content_description">வருமானத்தைச் சேர்</string>
+    <string name="dashboard_add_expense_content_description">செலவைச் சேர்</string>
+    <string name="dashboard_recent_activity_title">சமீபத்திய செயல்பாடு</string>
+    <string name="dashboard_view_all">அனைத்தையும் காண்க</string>
+    <string name="dashboard_savings_goals_title">சேமிப்பு இலக்குகள்</string>
+    <string name="dashboard_distribution_title">விநியோகம்</string>
+    <string name="dashboard_net_worth">மொத்த சொத்து மதிப்பு</string>
+    <string name="dashboard_available_now">தற்போது கிடைப்பவை</string>
+    <string name="dashboard_total_balance">மொத்த இருப்பு</string>
+    <string name="dashboard_expenses_label">செலவுகள்</string>
+    <string name="dashboard_cash_in_hand">கையிலுள்ள ரொக்கம்</string>
+    <string name="dashboard_bank_accounts">வங்கி கணக்குகள்</string>
+    <string name="dashboard_investments">முதலீடுகள்</string>
+    <string name="dashboard_deposits">வைப்புத்தொகைகள்</string>
+    <string name="dashboard_import_success">%1$d பரிவர்த்தனைகள் வெற்றிகரமாக இறக்குமதி செய்யப்பட்டன</string>
+    <string name="dashboard_receivables">பெற வேண்டியவை</string>
+    <string name="dashboard_budget_title">%1$s பட்ஜெட்</string>
+    <string name="dashboard_spent_label">செலவிடப்பட்டது</string>
+    <string name="dashboard_remaining_label">மீதமுள்ளது</string>
+    <string name="dashboard_percent_used">%1$d%% பயன்படுத்தப்பட்டது</string>
+    <string name="dashboard_recommended_daily_spend_label">பரிந்துரைக்கப்படும் தினசரி செலவு: </string>
+
+    <plurals name="dashboard_days_remaining">
+        <item quantity="one">%1$d நாள் மீதமுள்ளது</item>
+        <item quantity="other">%1$d நாட்கள் மீதமுள்ளன</item>
+    </plurals>
+
+    <!-- Accounts -->
+    <string name="accounts_add_account_content_description">கணக்கைச் சேர்</string>
+    <string name="accounts_add_group_content_description">குழுவைச் சேர்</string>
+    <string name="accounts_add_group_title">குழுவைச் சேர்</string>
+    <string name="accounts_empty_subtitle">தொடங்குவதற்கு உங்கள் முதல் கணக்கைச் சேர்க்கவும்</string>
+    <string name="accounts_empty_title">இன்னும் கணக்குகள் இல்லை</string>
+    <string name="accounts_general_section_title">பொதுவானவை</string>
+    <string name="accounts_group_name_label">குழுவின் பெயர்</string>
+
+    <!-- Add Account -->
+    <string name="add_account_bank_name_label">வங்கியின் பெயர்</string>
+    <string name="add_account_color_selected_content_description">தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="add_account_current_value_label">தற்போதைய மதிப்பு</string>
+    <string name="add_account_details_section_title">விவரங்கள்</string>
+    <string name="add_account_group_label">குழு</string>
+    <string name="add_account_initial_balance_label">ஆரம்ப இருப்பு</string>
+    <string name="add_account_interest_rate_label">வட்டி விகிதம் (%)</string>
+    <string name="add_account_invested_amount_label">முதலீடு செய்யப்பட்ட தொகை</string>
+    <string name="add_account_lent_to_label">இவருக்கு கடன் கொடுத்தது</string>
+    <string name="add_account_name_label">கணக்கின் பெயர்</string>
+    <string name="add_account_no_group_label">குழு இல்லை</string>
+    <string name="add_account_organization_section_title">அமைப்பு</string>
+    <string name="add_account_owed_to_label">இவருக்கு செலுத்த வேண்டியது</string>
+    <string name="add_account_save_button">கணக்கைச் சேமி</string>
+    <string name="add_account_theme_color_label">தீம் நிறம்</string>
+    <string name="add_account_title">கணக்கைச் சேர்</string>
+    <string name="add_account_total_label">மொத்தம்: %1$s</string>
+    <string name="add_account_type_label">கணக்கின் வகை</string>
+
+    <!-- Reports -->
+    <string name="reports_all_accounts_label">அனைத்து கணக்குகளும்</string>
+    <string name="reports_daily_expenses_title">தினசரி செலவுகள்</string>
+    <string name="reports_daily_trend_title">தினசரி போக்கு</string>
+    <string name="reports_date_picker_confirm">சரி</string>
+    <string name="reports_empty_subtitle">உங்கள் அறிக்கைகளைப் பார்க்க சில பரிவர்த்தனைகளைச் சேர்க்கவும்</string>
+    <string name="reports_empty_title">காண்பிக்க தரவு இல்லை</string>
+    <string name="reports_expense_breakdown_title">செலவு விவரம்</string>
+    <string name="reports_expenses_label">செலவுகள்</string>
+    <string name="reports_export_csv_content_description">CSV-க்கு ஏற்றுமதி செய்</string>
+    <string name="reports_export_pdf_content_description">PDF-க்கு ஏற்றுமதி செய்</string>
+    <string name="reports_download_template_menu_item">CSV டெம்പ്ளேட்டைப் பதிവிறக்கவும்</string>
+    <string name="reports_info_with_month">அறிக்கை: %1$s (%2$s)</string>
+    <string name="reports_info_without_month">அறிக்கை: %1$s</string>
+    <string name="reports_net_balance_label">நிகர இருப்பு</string>
+    <string name="reports_no_activity_label">செயல்பாடுகள் இல்லை</string>
+    <string name="reports_select_date_range_content_description">தேதி வரம்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="reports_share_pdf_menu_item">PDF-ஐப் பகிரவும்</string>
+    <string name="reports_spending_breakdown_title">செலவு பகிர்வு</string>
+    <string name="reports_spending_by_category_title">வகை வாரியான செலவு</string>
+    <string name="reports_uncategorized_label">வகைப்படுத்தப்படாதவை</string>
+    <string name="reports_view_pdf_menu_item">PDF-ஐப் பார்க்கவும்</string>
+
+    <!-- PDF Viewer -->
+    <string name="pdf_viewer_error_failed_to_load">PDF-ஐ ஏற்றுவதில் தோல்வி</string>
+    <string name="pdf_viewer_error_file_not_found">கோப்பு காணப்படவில்லை</string>
+    <string name="pdf_viewer_rendering_message">PDF வழங்கப்படுகிறது...</string>
+    <string name="pdf_viewer_share_content_description">பகிர்</string>
+    <string name="pdf_viewer_title">PDF அறிக்கை</string>
+    <!-- PDF Generation -->
+    <string name="pdf_gen_report_title">நிதி அறிக்கை</string>
+    <string name="pdf_gen_monthly_report_title">மாதாந்திர அறிக்கை: %1$s</string>
+    <string name="pdf_gen_report_info">அறிக்கை: %1$s</string>
+    <string name="pdf_gen_summary">சுருக்கம்</string>
+    <string name="pdf_gen_total_income">மொத்த வருமானம்:</string>
+    <string name="pdf_gen_total_expense">மொத்த செலவு:</string>
+    <string name="pdf_gen_net_balance">நிகர இருப்பு:</string>
+    <string name="pdf_gen_category_breakdown">வகை வாரியான சுருக்கம்</string>
+    <string name="pdf_gen_recent_transactions">சமீபத்திய பரிவர்த்தனைகள்</string>
+    <string name="pdf_gen_date_header">தேதி</string>
+    <string name="pdf_gen_description_header">விளக்கம்</string>
+    <string name="pdf_gen_amount_header">தொகை</string>
+    <string name="pdf_gen_other_category">மற்றவை</string>
+</resources>

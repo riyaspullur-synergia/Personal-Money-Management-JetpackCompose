@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class app.riyaspullur.personalmoneymanagement.feature.ai.ui.AiAssistantViewModel

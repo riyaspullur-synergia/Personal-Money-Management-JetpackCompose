@@ -1,0 +1,9 @@
+app.riyaspullur.personalmoneymanagement.feature.ai-pngs-0 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/build/generated/res/pngs/debug
+app.riyaspullur.personalmoneymanagement.feature.ai-updated_navigation_xml-1 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/build/generated/updated_navigation_xml/debug
+app.riyaspullur.personalmoneymanagement.feature.ai-mergeDebugResources-2 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+app.riyaspullur.personalmoneymanagement.feature.ai-mergeDebugResources-3 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+app.riyaspullur.personalmoneymanagement.feature.ai-debug-4 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/build/intermediates/merged_res/debug/mergeDebugResources
+app.riyaspullur.personalmoneymanagement.feature.ai-debug-5 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/build/intermediates/packaged_res/debug/packageDebugResources
+app.riyaspullur.personalmoneymanagement.feature.ai-debug-6 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/src/debug/res
+app.riyaspullur.personalmoneymanagement.feature.ai-main-7 /Users/riyas/AndroidStudioProjects/PersonalMoneyManagement-compose/feature/ai/src/main/res
+gradleHome-0 /Users/riyas/.gradle
